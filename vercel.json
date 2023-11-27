@@ -8,7 +8,7 @@
        { "src": "/(.*)", "dest": "server.js" }
     ],
     "rewrites":[
-      { "src": "/(.*)", "dest": "/"}
+      { "source": "/(.*)", "destination": "/"}
     ],
     "headers": [
       {
