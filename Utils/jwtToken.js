@@ -11,7 +11,6 @@ const sendToken = ( user , statusCode ,res)=>{
         httpOnly: false,
         sameSite: 'none',
         secure: true,
-        // sameSite: 'Lax',
       };
 
     // console.log(token);

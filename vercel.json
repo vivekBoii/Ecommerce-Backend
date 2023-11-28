@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "project": "ecommerce-backend",
     "builds": [
        { "src": "server.js", "use": "@vercel/node" }
     ],
