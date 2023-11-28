@@ -21,3 +21,4 @@ Config/.env
 *.njsproj
 *.sln
 *.sw?
+.vercel
