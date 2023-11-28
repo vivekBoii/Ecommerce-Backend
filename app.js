@@ -9,10 +9,7 @@ const dotenv = require("dotenv"); //for env file
 
 const path = require("path")
 
-app.use(cors({
-    origin: 'https://vivekboiicart.vercel.app', // Change this to the origin of your React app
-    credentials: true,
-}));
+app.use(cors());
 
 //config
 // if(process.env.NODE_ENV!=="PRODUCTION"){
